@@ -1,1 +1,18 @@
-/* útfæra */
+table {
+    background-color: transparent;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+    border: 1px solid black;
+}

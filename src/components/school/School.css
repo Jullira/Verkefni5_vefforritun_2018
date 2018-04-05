@@ -1,1 +1,19 @@
-/* útfæra */
+h2 {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
